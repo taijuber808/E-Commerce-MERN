@@ -1,0 +1,377 @@
+/* =========================
+   HELP / SUPPORT PAGE
+========================= */
+
+.help-page {
+    width: 100%;
+    overflow-x: hidden;
+    background: #f9fafb;
+}
+
+
+/* =========================
+   HELP HERO + SEARCH
+========================= */
+
+.help-hero {
+    width: 100%;
+    padding: 70px 8% 60px;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    background: linear-gradient(135deg, #ff9a9e, #ff4d6d);
+    color: #ffffff;
+}
+
+.help-hero h1 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.help-hero span {
+    display: block;
+    margin: 0 auto 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.help-search-box {
+    max-width: 550px;
+    margin: 0 auto;
+
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.help-search-box input {
+    flex: 1;
+    padding: 16px 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: #111827;
+}
+
+.help-search-box input::placeholder {
+    color: #9ca3af;
+}
+
+.help-search-box button {
+    padding: 0 26px;
+    border: none;
+    background: #111827;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.help-search-box button:hover {
+    background: #000000;
+}
+
+
+/* =========================
+   HELP TOPICS
+========================= */
+
+.help-topics-section {
+    padding: 60px 8%;
+    background: #f9fafb;
+}
+
+.help-topics-section h2 {
+    text-align: center;
+    margin: 0 0 35px;
+    color: #111827;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.help-topics-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.help-topic-card {
+    padding: 28px 24px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.help-topic-card:hover {
+    border-color: #ff4d6d;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(255, 77, 109, 0.12);
+}
+
+.help-topic-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+
+    background: #fff0f2;
+    border-radius: 10px;
+}
+
+.help-topic-card h3 {
+    margin: 0 0 8px;
+    color: #111827;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.help-topic-card p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   STILL NEED HELP
+========================= */
+
+.still-help-section {
+    padding: 60px 8% 90px;
+    background: #f9fafb;
+}
+
+.still-help-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 30px;
+}
+
+/* Left box */
+
+.quick-contact-box {
+    padding: 35px;
+    background: #111827;
+    border-radius: 16px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.quick-contact-box h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.quick-contact-box>p {
+    margin: 0 0 28px;
+    color: #d1d5db;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.quick-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.quick-contact-icon {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    background: #ff4d6d;
+    font-size: 20px;
+}
+
+.quick-contact-item h4 {
+    margin: 0 0 3px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.quick-contact-item span {
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+.chat-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #ff9a9e, #ff4d6d);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.chat-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(255, 77, 109, 0.3);
+}
+
+/* Right box: form */
+
+.support-form-box {
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.support-form-box h3 {
+    margin: 0 0 22px;
+    color: #111827;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.support-form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.support-form-box input,
+.support-form-box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+    color: #111827;
+    transition: 0.3s ease;
+}
+
+.support-form-box textarea {
+    resize: none;
+}
+
+.support-form-box input::placeholder,
+.support-form-box textarea::placeholder {
+    color: #9ca3af;
+}
+
+.support-form-box input:focus,
+.support-form-box textarea:focus {
+    border-color: #ff4d6d;
+    box-shadow: 0 0 0 3px rgba(255, 77, 109, 0.1);
+}
+
+.support-form-box button {
+    width: fit-content;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4d6d;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.support-form-box button:hover {
+    background: #e63e5c;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   RESPONSIVE — TABLET (max-width: 992px)
+========================= */
+
+@media (max-width: 992px) {
+    .help-topics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .still-help-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* =========================
+   RESPONSIVE — MOBILE (max-width: 576px)
+========================= */
+
+@media (max-width: 576px) {
+    .help-hero {
+        padding: 50px 6% 45px;
+    }
+
+    .help-hero h1 {
+        font-size: 26px;
+    }
+
+    .help-search-box {
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .help-search-box button {
+        padding: 14px;
+    }
+
+    .help-topics-section,
+    .still-help-section {
+        padding: 45px 5%;
+    }
+
+    .help-topics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-contact-box,
+    .support-form-box {
+        padding: 25px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

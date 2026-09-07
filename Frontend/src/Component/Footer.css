@@ -1,0 +1,152 @@
+.footer {
+  width: 100%;
+  background: #e8283f;
+  color: white;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 60px 8% 40px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1.3fr;
+  gap: 40px;
+}
+
+.footer-column h3 {
+  margin: 0 0 20px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* Links */
+.footer-column a {
+  display: block;
+  width: fit-content;
+  margin-bottom: 12px;
+  color: #fdd9dd;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+  transform: translateX(3px);
+}
+
+/* Get in Touch info rows */
+.footer-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 14px;
+  color: #fde3e6;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-icon {
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+/* Social */
+.footer-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.footer-social a {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  background: #ffffff;
+  color: #e8283f;
+  transform: translateY(-3px);
+}
+
+/* Newsletter */
+.footer-newsletter p {
+  color: #fde3e6;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+  max-width: 260px;
+}
+
+.footer-newsletter input {
+  width: 100%;
+  max-width: 280px;
+  padding: 13px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.footer-newsletter button {
+  padding: 13px 26px;
+  background: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-newsletter button:hover {
+  background: #111827;
+  transform: translateY(-2px);
+}
+
+/* Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 20px 8%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #fde3e6;
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 45px 7% 30px;
+  }
+
+  .footer-newsletter input,
+  .footer-newsletter button {
+    max-width: 100%;
+  }
+}
